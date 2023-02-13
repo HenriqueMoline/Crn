@@ -1,0 +1,37 @@
+body{
+background-color: rgb(11, 8, 51);
+color:white;
+text-align: center;
+padding-top: 50px;
+}
+
+#start{
+    background-color: rgb(101, 207, 101)
+    }
+    
+    #stop{
+    background-color: rgb(248, 93, 93);
+    position: relative;
+    }
+    
+    #restart{
+    background-color: gray;
+    }
+
+                .btn{
+                    width: 100px;
+                    height: 25px;
+                    border-radius: 25px;
+                    transition: all 0.5 ease-in-out;
+                    font-style: italic;
+                }
+                
+
+
+                .btn:hover,#start:hover,#stop:hover,#restart:hover{
+                    transform: scale(1.1);
+                    background-color: rgb(235, 80, 196);
+                    
+            }
+    
+             
